@@ -1,4 +1,4 @@
-# Portfolio — Abdelrahman Abd El-Hafez
+# Portfolio | Abdelrahman Abd El-Hafez
 
 This is a personal portfolio website built with React 19 and Vite 8.  
 The project was created to showcase my experience, technical skills, education, projects, certifications, and achievements through a clean and responsive interface.
