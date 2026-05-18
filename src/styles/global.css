@@ -1,0 +1,56 @@
+/* ─────────────────────────────────────────────────────────────────────────────
+   styles/global.css
+   
+   Global CSS resets and font imports.
+   Injected once via index.jsx (or main.jsx) so every component inherits them.
+   Component-specific styles live inline inside each component file.
+───────────────────────────────────────────────────────────────────────────── */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+/* Box model reset — includes padding/border in element width/height */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Smooth scrolling for anchor navigation */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Body defaults */
+body {
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom scrollbar — thin and accent-colored */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #2563eb55;
+  border-radius: 99px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2563eb99;
+}
+
+/* Remove default button styles */
+button {
+  font-family: inherit;
+}
+
+/* Remove default anchor underline */
+a {
+  text-decoration: none;
+  color: inherit;
+}
