@@ -135,41 +135,6 @@ Example:
 https://personal-web-beest.netlify.app
 ```
 
-## Repository
-
-(Add your GitHub repository link here)
-
----
-
-# Screenshots / Visuals
-
-## Landing Page
-
-*Add screenshot here*
-
-## Skills Section
-
-*Add screenshot here*
-
-## Mobile View
-
-*Add screenshot here*
-
-## Experience Section
-
-*Add screenshot here*
-
-> Recommendation:
-> Add a GIF preview. People love moving pixels.
-
-Example tools:
-
-* ScreenToGif
-* Kap
-* OBS Studio
-
----
-
 # Tech Stack
 
 | Technology           | Usage                  |
